@@ -82,3 +82,31 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+/* --------------------------------------------------------------------
+There are 2  types of memory in JavaScirpt
+1=> Stack (Primitive) => we will get the copy of the variable which we have declared
+
+2 => Heap(Non Primitive) => we will get the reference(Original Value) of the variable
+*/
+
+//----------------------------STACK----------------------------------
+let object = "Car"
+let anotherObject = object
+anotherObject = "Bike"
+
+console.log(object) //Car => Original value will not change
+console.log(anotherObject) //Bike
+
+//-----------------------------HEAP-----------------------------------
+
+let userOne = {
+    email: "meghad2018@gmail.com",
+    upi: "meghahdcf.ybl",
+
+}
+let userTwo = userOne;
+userTwo.email = "megha.fitness.com";
+
+console.log(userOne.email) //megha.fitness.com => original value will also get changed in non-primitive data types.
+console.log(userTwo.email) //megha.fitness.com
