@@ -1,5 +1,7 @@
 //+++++++++++++++++++++++++++++++++++++++ Numbers +++++++++++++++++++++++++++++++++++++++++++++++++
 
+//data type of number is object
+
 const score = 400;
 console.log(score); //400
 
