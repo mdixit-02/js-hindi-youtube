@@ -38,5 +38,5 @@ console.log("B", myArr)
 const myN2 = myArr.splice(1,3) // include all indexes from 1 to 3
 
 console.log(myN2);
-console.log("C", myArr);
+console.log("C", myArr); 
 
