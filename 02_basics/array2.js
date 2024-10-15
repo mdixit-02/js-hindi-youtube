@@ -1,4 +1,4 @@
-const marvelHeros = ["thor", "Ironman", "Spiderman"]
+ const marvelHeros = ["thor", "Ironman", "Spiderman"]
 const dcHeros = ["Superman", "Flash", "batman"]
 
 //marvelHeros.push(dcHeros); // we can use push on existing array
