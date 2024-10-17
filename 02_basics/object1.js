@@ -1,4 +1,4 @@
-//Both declarations are correct and gives same output {}, only difference is 1st one is Singleton and 2nd one is non-singleton
+//Both declarations are correct and gives same output {}, only difference is 1st one is non Singleton and 2nd one is singleton.
 const tinderUser = {}
 //const tinderUser = new Object();
 
