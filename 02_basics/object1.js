@@ -8,7 +8,7 @@ tinderUser.Id = "123abc"
 tinderUser.name = "Charlie"
 tinderUser.isLoggedIn = false;
 
-console.log(tinderUser)
+//console.log(tinderUser)
 
 //We can declare multiple objects inside object => nested object
 
@@ -22,7 +22,7 @@ const regularUser = {
     }
 }
 
-console.log(regularUser.fullname.userfullname.firstName) // => Megha
+//console.log(regularUser.fullname.userfullname.firstName) // => Megha
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
@@ -56,8 +56,39 @@ const User = [
 ]
 
 //console.log(User[1].email);
-console.log(Object.keys(tinderUser)) // => Id, name, isLoggedIn
-console.log(Object.values(tinderUser)) // => 123abc, charlie, false
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser)) // => Id, name, isLoggedIn
+// console.log(Object.values(tinderUser)) // => 123abc, charlie, false
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")) // gives output in boolean
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")) // gives output in boolean
+
+
+
+/****************************************************************************
+ OBJECT DE-STRUCTURE IN JAVASCRIPT
+ */
+
+ const course = {
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh Sir",
+ }
+
+ //console.log(course.courseInstructor);
+
+//  const{courseInstructor} = course;  //For easy syntax, we use this
+//  console.log(courseInstructor); 
+
+const{courseInstructor:instructor} = course; //The syntax for extracting values from an object or array and assigning them to a variable.
+console.log(instructor); 
+
+/*In REACT also we use de-structuring, de-structuring basically means to short/extract values from objects and arrays into variables.
+The syntax for extracting values from an object or array and assigning them to a variable.
+*/
+
+/*
+JSON => JavaScript Object Notation
+It is a type of API
+It can be in the form of Arrays as well
+Mostly in object but sometimes it can be in the form of Arrays as well
+*/
