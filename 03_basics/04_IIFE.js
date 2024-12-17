@@ -3,7 +3,7 @@
 
 // Normal Function Declaration
 // function chai(){
-//     console.log("DB Connected");
+//     console.log("DB Connected"); 
 // }
 // chai();
 
@@ -15,7 +15,7 @@
 )();    //Named IIFE
 
 // ( function aurCode(){
-//     console.log("DB Connected Two")
+//     console.log("DB Connected Two") 
 // }
 // ) ()
 
